@@ -1,0 +1,72 @@
+# Visual Studio / .NET Core / ASP.NET Core common ignores
+
+## Build folders
+[Bb]in/
+[Oo]bj/
+out/
+publish/
+
+## User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+## Visual Studio Code
+.vscode/
+
+## Visual Studio
+.vs/
+
+## Rider / IntelliJ
+.idea/
+*.sln.iml
+
+## NuGet packages
+*.nupkg
+# The 'packages' folder is typically not used with PackageReference
+packages/
+
+## NuGet / dotnet local artifacts
+project.lock.json
+project.assets.json
+.nuget/
+
+## ASP.NET Core and local secrets
+secrets.json
+local.settings.json
+appsettings.Development.json
+
+## Logs and databases
+*.log
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+## Test results / Coverage
+TestResults/
+*.coverage
+*.coveragexml
+coverage/
+
+## Resharper
+_ReSharper*/
+*.DotSettings.user
+
+## Publish output
+publish/
+
+## Temporary files
+*.tmp
+*.temp
+
+## OS generated files
+Thumbs.db
+ehthumbs.db
+.DS_Store
+
+## Misc
+*.vsix
+*.psess
+*.vsp
